@@ -1,0 +1,77 @@
+.container {
+    background-image: url("https://krot.info/uploads/posts/2020-10/1603674066_18-p-fioletovii-fon-s-gradientom-22.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 300px;
+    min-height: 400px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.formWrap {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     min-height: 150px;
+ }
+
+.error {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: red
+}
+
+.main h3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.main input {
+    max-width: 80%;
+    border: none;
+    border-bottom: 1px solid dimgray;
+    opacity: 0.7;
+    padding-bottom: 5px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.main input:focus {
+    outline: none;
+    border-bottom: 1px solid dimgray;
+}
+
+.btnWrap {
+    padding-top: 40px;
+}
+
+.btnWrap button {
+    background: #21268F;
+    color: #fff;
+    width: 60%;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.btnWrap button:hover {
+    cursor: pointer;
+}
